@@ -1,11 +1,14 @@
 {
   "name": "gemini-proxy",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "type": "module",
-  "description": "Proxy for Gemini CLI",
+  "description": "Clean and silent proxy for Gemini CLI",
   "main": "src/index.js",
   "bin": {
     "gemini-proxy": "./bin/gemini-proxy"
+  },
+  "scripts": {
+    "install": "./scripts/install.sh"
   },
   "license": "MIT"
 }
