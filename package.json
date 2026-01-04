@@ -1,0 +1,11 @@
+{
+  "name": "gemini-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proxy for Gemini CLI",
+  "main": "src/index.js",
+  "bin": {
+    "gemini-proxy": "./bin/gemini-proxy"
+  },
+  "license": "MIT"
+}
